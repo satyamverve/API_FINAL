@@ -26,5 +26,6 @@ origins=["*"]
 # Endpoints requests
 All endpoints can be used by visiting the swagger documentation at localhost:9999/v1/documentation
 
-
+# Command to clear all __pycache__ files
+find . -type d -name "__pycache__" -exec rm -r {} \;
 
