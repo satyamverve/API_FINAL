@@ -29,3 +29,5 @@ All endpoints can be used by visiting the swagger documentation at localhost:999
 # Command to clear all __pycache__ files
 find . -type d -name "__pycache__" -exec rm -r {} \;
 
+final
+
